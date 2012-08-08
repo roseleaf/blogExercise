@@ -10,6 +10,8 @@
 		1C901F4915D303C100C96BA3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C901F4815D303C100C96BA3 /* Foundation.framework */; };
 		1C901F4C15D303C100C96BA3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C901F4B15D303C100C96BA3 /* main.m */; };
 		1C901F5015D303C100C96BA3 /* classExercise.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 1C901F4F15D303C100C96BA3 /* classExercise.1 */; };
+		1C901F5815D307CA00C96BA3 /* BlogArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C901F5715D307CA00C96BA3 /* BlogArticle.m */; };
+		1C901F5B15D31AA000C96BA3 /* People.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C901F5A15D31AA000C96BA3 /* People.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +33,10 @@
 		1C901F4B15D303C100C96BA3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1C901F4E15D303C100C96BA3 /* classExercise-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "classExercise-Prefix.pch"; sourceTree = "<group>"; };
 		1C901F4F15D303C100C96BA3 /* classExercise.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = classExercise.1; sourceTree = "<group>"; };
+		1C901F5615D307CA00C96BA3 /* BlogArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogArticle.h; sourceTree = "<group>"; };
+		1C901F5715D307CA00C96BA3 /* BlogArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogArticle.m; sourceTree = "<group>"; };
+		1C901F5915D31AA000C96BA3 /* People.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = People.h; sourceTree = "<group>"; };
+		1C901F5A15D31AA000C96BA3 /* People.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = People.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +80,10 @@
 			isa = PBXGroup;
 			children = (
 				1C901F4B15D303C100C96BA3 /* main.m */,
+				1C901F5915D31AA000C96BA3 /* People.h */,
+				1C901F5A15D31AA000C96BA3 /* People.m */,
+				1C901F5615D307CA00C96BA3 /* BlogArticle.h */,
+				1C901F5715D307CA00C96BA3 /* BlogArticle.m */,
 				1C901F4F15D303C100C96BA3 /* classExercise.1 */,
 				1C901F4D15D303C100C96BA3 /* Supporting Files */,
 			);
@@ -140,6 +150,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				1C901F4C15D303C100C96BA3 /* main.m in Sources */,
+				1C901F5815D307CA00C96BA3 /* BlogArticle.m in Sources */,
+				1C901F5B15D31AA000C96BA3 /* People.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
